@@ -14,10 +14,12 @@ public class AsciiArt
 		System.out.println("Self Portrait" );
 		System.out.println("\n\n\n\n" );
 
-		System.out.println("                /\\                " );
-		System.out.println("               /  \\               " );
-		System.out.println("              /    \\              " );
-		System.out.println("             [------]             " );
+		System.out.println("              _____________                " );
+		System.out.println("             /             \\               " );
+		System.out.println("            /   #      #    \\              " );
+		System.out.println("            |               |  " );
+		System.out.println("            |   \________// |  " );
+		System.out.println("            |_______________|  " );
 		//add other output
 
 		/*System.out.println(" \n\n\n\nHelpFul Hints" );
