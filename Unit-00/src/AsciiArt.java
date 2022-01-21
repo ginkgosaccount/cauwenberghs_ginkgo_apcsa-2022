@@ -1,10 +1,10 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
 
-//Name -
-//Date -
-//Class -
-//Lab  -
+//Name - Ginkgo Cauwenberghs
+//Date - 1/18/22
+//Class - AP CSA
+//Lab  - Unit 00
 
 public class AsciiArt
 {
@@ -16,10 +16,10 @@ public class AsciiArt
 
 		
 		System.out.println("              _____________                " );
-		System.out.println("             /             \\               " );
+		System.out.println("             /             \\              " );
 		System.out.println("            /   #      #    \\              " );
 		System.out.println("            |               |               " );
-		System.out.println("            |   \________// |               " );
+		System.out.println("            |  \\________/   |               " );
 		System.out.println("            |_______________|                " );
 		System.out.println("            _____|      |_____                     " );
 		System.out.println("           |                  |          " );
