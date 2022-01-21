@@ -3,8 +3,8 @@
 
 //Name - Ginkgo Cauwenberghs
 //Date - 1/18/22
-//Class - Computer Science
-//Lab  - Unit 0 AsciiBox
+//Class - AP CSA
+//Lab  - Unit 00
 
 public class AsciiBox
 {
