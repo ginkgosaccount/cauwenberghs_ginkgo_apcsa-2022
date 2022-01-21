@@ -1,10 +1,10 @@
 //© A+ Computer Science
 //www.apluscompsci.com
 
-//Name -
-//Date -
-//Class -
-//Lab  -
+//Name - Ginkgo Cauwenberghs
+//Date - 1/18/22
+//Class - AP CSA
+//Lab  - Unit 01
 
 import static java.lang.System.*;
 
@@ -12,11 +12,31 @@ public class StarsRunner
 {
    public static void main(String args[])
    {
-      //instantiate a StarsAndStripes object
       StarsAndStripes thing = new StarsAndStripes();
       
-      //call the methods needed to make the patterns on the word document
+      thing.printTwentyDashes();
+      thing.printTwentyStars();
+      thing.printTwentyDashes();
+      thing.printTwentyStars();
+      thing.printTwentyDashes();
+      thing.printTwentyStars();
+      thing.printTwentyDashes();
+      thing.printTwoBlankLines();
+      thing.printTwentyDashes();
+      thing.printTwentyStars();
+      thing.printTwentyDashes();
+      thing.printTwentyStars();
+      thing.printTwentyDashes();
+      thing.printTwentyStars();
+      thing.printTwentyDashes();
+      thing.printTwentyDashes();
+      thing.printTwentyStars();
+      thing.printTwentyDashes();
+      thing.printTwentyStars();
+      thing.printTwentyDashes();
+      thing.printTwentyStars();
       thing.printTwentyDashes();
       
    }
 }
+
