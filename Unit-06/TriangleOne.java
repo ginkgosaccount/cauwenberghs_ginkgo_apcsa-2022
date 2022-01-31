@@ -17,6 +17,11 @@ public class TriangleOne
 	{
 		word = s;
 	}
+	
+	public void setWord(String s)
+	{
+		word = s;
+	}
 
 	public void print( )
 	{
