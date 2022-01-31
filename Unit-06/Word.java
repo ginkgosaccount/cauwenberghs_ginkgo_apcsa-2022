@@ -1,6 +1,6 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
-//Name
+//Name: Ginkgo Cauwenberghs
 
 import static java.lang.System.*;
 
@@ -10,34 +10,42 @@ public class Word
 
 	public Word()
 	{
+		word = "";
 	}
 
 	public Word(String s)
 	{
+		word = s;
 	}
 
 	public void setString(String s)
 	{
+		word = s;
 	}
 
 	public char getFirstChar()
 	{
-		return 0;
+		return word.charAt(0);
 	}
 
 	public char getLastChar()
 	{
-		return 0;
+		return word.charAt(word.length()-1);
 	}
 
 	public String getBackWards()
 	{
 		String back="";
+		for (int i=word.length()-1;i>=0;i--)
+			back = back + word.charAt(i);
 		return back;
 	}
 
- 	public String toString()
+ 	public void print()
  	{
- 		return "";
+ 		System.out.println(getFirstChar());
+		System.out.println(getLastChar());
+		System.out.println(getBackWards());
+		System.out.println(word);
 	}
 }
