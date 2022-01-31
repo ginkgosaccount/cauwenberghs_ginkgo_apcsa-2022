@@ -1,6 +1,6 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
-//Name
+//Name: Ginkgo Cauwenberghs
 
 import static java.lang.System.*;
 
@@ -15,13 +15,12 @@ public class TriangleOne
 
 	public TriangleOne(String s)
 	{
-	}
-
-	public void setWord(String s)
-	{
+		word = s;
 	}
 
 	public void print( )
 	{
+		for (int i=word.length();i=0;i--)
+			System.out.println(word.substring(0,i);
 	}
 }
