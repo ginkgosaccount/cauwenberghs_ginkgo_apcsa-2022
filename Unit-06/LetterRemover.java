@@ -1,6 +1,6 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
-//Name -
+//Name - Ginkgo Cauwenberghs
 
 import static java.lang.System.*;
 
@@ -39,8 +39,9 @@ public class LetterRemover
 		return cleaned;
 	}
 
-	public String toString()
+	public void print()
 	{
-		return sentence + " - letter to remove " + lookFor;
+		System.out.println(sentence + " - letter to remove " + lookFor);
+		System.out.println(removeLetters());
 	}
 }
