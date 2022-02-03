@@ -1,6 +1,6 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
-//Name -
+//Name - Ginkgo Cauwenberghs
 
 import static java.lang.System.*;
 
@@ -11,23 +11,41 @@ public class TriangleFive
 
 	public TriangleFive()
 	{
+		setLetter('');
+		setAmount(0);
 	}
 
 	public TriangleFive(char c, int amt)
 	{
+		setLetter(c);
+		setAmount(amt);
 	}
 
 	public void setLetter(char c)
 	{
+		letter = c;
 	}
 
 	public void setAmount(int amt)
 	{
+		amount = amt;
 	}
 
-	public String toString()
+	public void print()
 	{
-		String output="";
-		return output;
+		for (int y=0;y<amount;y++)
+		{
+			char thing = letter;
+			for (int i=amount;i>y;i--)
+			{
+				for (int x=0;x<amount;x++)
+					out.print(letter);
+				out.print("\n");
+				if (thing == 'Z')
+					thing = 'A';
+				else
+					thing++;
+			}
+		}
 	}
 }
