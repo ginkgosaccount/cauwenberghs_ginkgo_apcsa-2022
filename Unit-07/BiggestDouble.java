@@ -21,7 +21,7 @@ public class BiggestDouble
 	public void setDoubles(double a, double b, double c, double d)
 	{
 		one = a;
-		two = b
+		two = b;
 		three = c;
 		four = d;
 	}
@@ -42,6 +42,6 @@ public class BiggestDouble
 
 	public String toString()
 	{
-	   return "" + one + two + three + four;
+	   return "" + one + " " + two + " " + three + " " + four;
 	}
 }
