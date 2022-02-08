@@ -8,21 +8,21 @@ public class TriangleFiveRunner
 {
    public static void main(String args[])
    {
-	   TriangleFive triange = new TriangleFive();
+	   TriangleFive triangle = new TriangleFive();
 	   
-	   triangle.setLetter('C'); triange.setAmount(4);
+	   triangle.setLetter('C'); triangle.setAmount(4);
 	   triangle.print();
 	   
-	   triangle.setLetter('A'); triange.setAmount(5);
+	   triangle.setLetter('A'); triangle.setAmount(5);
 	   triangle.print();
 	   
-	   triangle.setLetter('B'); triange.setAmount(6);
+	   triangle.setLetter('B'); triangle.setAmount(6);
 	   triangle.print();
 	   
-	   triangle.setLetter('X'); triange.setAmount(7);
+	   triangle.setLetter('X'); triangle.setAmount(7);
 	   triangle.print();
 	   
-	   triangle.setLetter('Z'); triange.setAmount(8);
+	   triangle.setLetter('Z'); triangle.setAmount(8);
 	   triangle.print();
    }
 }

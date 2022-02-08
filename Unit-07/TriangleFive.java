@@ -11,7 +11,7 @@ public class TriangleFive
 
 	public TriangleFive()
 	{
-		setLetter('');
+		setLetter(' ');
 		setAmount(0);
 	}
 
@@ -38,14 +38,15 @@ public class TriangleFive
 			char thing = letter;
 			for (int i=amount;i>y;i--)
 			{
-				for (int x=0;x<amount;x++)
-					out.print(letter);
-				out.print("\n");
+				for (int x=0;x<i;x++)
+					out.print(thing);
+				out.print(" ");
 				if (thing == 'Z')
 					thing = 'A';
 				else
 					thing++;
 			}
+			out.print("\n");
 		}
 	}
 }
