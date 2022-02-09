@@ -1,6 +1,6 @@
 //(c) A+ Computer Science
 // www.apluscompsci.com
-//Name -  
+//Name -  Ginkgo Cauwenberghs
 
 import java.util.Scanner;
 import static java.lang.System.*;
@@ -11,16 +11,23 @@ public class RPSRunner
 	{
 		Scanner keyboard = new Scanner(System.in);
 		char response;
+		char playing = 'Y';
 		
-		//add in a do while loop after you get the basics up and running
-		
+		do
+		{
 			String player = "";
 		
 			out.print("type in your prompt [R,P,S] :: ");
 			
-			//read in the player value
+			response = keyboard.next().charAt(0);
 		
-			RockPaperScissors game = new RockPaperScissors();		
+			RockPaperScissors game = new RockPaperScissors(response);
+			
+			game.print();
+			
+			out.print("Would you like to play again? Enter "Y" or "N" ");
+			playing = keyboard.next().charAt(0);
+		} while (playing == 'Y');
 	}
 }
 
